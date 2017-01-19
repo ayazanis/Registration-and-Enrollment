@@ -1,0 +1,139 @@
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.user.minorproject.DetailsFrag"
+    android:orientation="vertical"
+    android:background="#2AFF2A">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="Welcome to RTU,Kota"
+        android:id="@+id/deText_1"
+        android:textSize="20dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="40dp">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:id="@+id/deImageView_1"
+            android:src="@drawable/a"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Enter Ph.D details"
+            android:id="@+id/deButton_1"
+            android:layout_marginLeft="150dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:id="@+id/deImageView_2"
+            android:src="@drawable/b"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Enter Mphil Dessertations"
+            android:id="@+id/deButton_2"
+            android:layout_marginLeft="150dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Enter Student Projects"
+            android:id="@+id/deButton_3"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100dp"
+            android:id="@+id/deImageView_3"
+            android:src="@drawable/c"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Enter faculty Publications"
+            android:id="@+id/deButton_4"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp" />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="80dp"
+            android:id="@+id/deImageView_4"
+            android:src="@drawable/d"/>
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sync. details from : Google"
+        android:id="@+id/deButton_5"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="15dp"/>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#000000"
+        android:weightSum="3">
+
+        <Button
+         android:layout_width="0dp"
+         android:layout_height="wrap_content"
+         android:id="@+id/deButton_6"
+         android:text="view"
+            android:layout_weight="1"/>
+        <Button
+         android:layout_width="0dp"
+         android:layout_height="wrap_content"
+         android:id="@+id/deButton_7"
+            android:text="search"
+            android:layout_weight="1"/>
+        <Button
+         android:layout_width="0dp"
+         android:layout_height="wrap_content"
+         android:id="@+id/deButton_8"
+         android:text="delete"
+            android:layout_weight="1"/>
+    </LinearLayout>
+
+
+</LinearLayout>

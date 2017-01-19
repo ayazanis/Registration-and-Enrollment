@@ -1,0 +1,89 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#2AFF2A"
+    tools:context="com.example.user.minorproject.SearchFrag">
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_height="wrap_content"
+        android:text="Search by name [or] number"
+        android:id="@+id/searchText_1"
+        android:textSize="25dp"
+        android:layout_gravity="center_horizontal" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="7"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center_horizontal">
+
+        <TextView
+            android:layout_width="20dp"
+            android:layout_height="wrap_content"
+            android:text="S.name"
+            android:textSize="16dp"
+            android:id="@+id/searchText_2"
+            android:layout_weight="2"/>
+
+       <AutoCompleteTextView
+           android:layout_width="120dp"
+           android:layout_height="wrap_content"
+           android:id="@+id/searchAuto_1"
+           android:layout_weight="4"/>
+
+        <Button
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:text="Go"
+            android:textAllCaps="false"
+            android:layout_marginLeft="10dp"
+            android:id="@+id/searchButton_1"
+            android:layout_weight="1"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="7"
+        android:layout_gravity="center_horizontal">
+
+        <TextView
+            android:layout_width="20dp"
+            android:layout_height="wrap_content"
+            android:text="S.cell"
+            android:id="@+id/searchText_3"
+            android:textSize="16dp"
+            android:layout_weight="2"/>
+
+        <AutoCompleteTextView
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/searchAuto_2"
+            android:layout_weight="4"/>
+        <Button
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:text="Go"
+            android:textAllCaps="false"
+            android:layout_weight="1"
+            android:layout_marginLeft="10dp"
+            android:id="@+id/searchButton_2" />
+    </LinearLayout>
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/searchList_1"
+        android:layout_gravity="center_horizontal" />
+
+
+</LinearLayout>

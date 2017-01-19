@@ -1,0 +1,101 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.user.minorproject.LoginFrag2"
+    android:orientation="vertical"
+    android:background="#2AFF2A">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2"
+        android:layout_marginTop="10dp">
+        <TextView
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:text="User name"
+            android:textSize="16dp"
+            android:id="@+id/sloginText_1"
+            android:layout_weight="1"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/sloginEdit_1"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2"
+        android:layout_marginTop="25dp">
+
+        <TextView
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:text="Password"
+            android:id="@+id/sloginText_2"
+            android:textSize="16dp"
+            android:layout_weight="1"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:ems="10"
+            android:id="@+id/sloginEdit_2"
+            android:layout_weight="1"
+            android:layout_marginLeft="10dp" />
+    </LinearLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/sloginButton_1"
+        android:text="Login"
+        android:textSize="20dp"
+        android:textAllCaps="false"
+        android:layout_marginLeft="140dp"
+        android:layout_marginTop="30dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2"
+        android:layout_marginTop="40dp">
+        <TextView
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:text="Registered Email"
+            android:id="@+id/sloginText_3"
+            android:textSize="16dp"
+            android:layout_weight="1"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/sloginEdit_3"
+            android:layout_weight="1"
+            android:layout_marginTop="7dp"
+            android:layout_marginLeft="10dp"
+            />
+    </LinearLayout>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Req. Password"
+        android:textAllCaps="false"
+        android:textSize="20dp"
+        android:id="@+id/sloginButton_2"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="30dp"/>
+
+
+
+
+</LinearLayout>
